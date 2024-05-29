@@ -8,3 +8,5 @@ The [documentation](https://docs.spring.io/spring-data/keyvalue/reference/keyval
 > Running queries is managed by a `QueryEngine`. As mentioned earlier, you can instruct the `KeyValueAdapter` to use an implementation-specific `QueryEngine` that allows access to native functionality. When used without further customization, queries can be run by using `SpELQueryEngine`.
 
 Both engines are package-protected, so it is unclear to me how to define the engine to use.
+
+See also https://github.com/spring-projects/spring-data-keyvalue/issues/576
